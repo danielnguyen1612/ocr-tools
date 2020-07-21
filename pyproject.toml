@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ocr-tools"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Nguyen <anhnguyen.tb90@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+tesserocr = "^2.5.1"
+python-magic = "^0.4.18"
+libmagic = "^1.0"
+pdf2image = "^1.13.1"
+numpy = "^1.19.0"
+opencv-python-headless = "^4.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
